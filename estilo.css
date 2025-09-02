@@ -1,0 +1,116 @@
+body, html {
+	background-color: #fdfefe ;
+    margin: 0;
+    padding: 0;
+	font-family: Arial;
+}
+
+
+
+
+.horizontal {
+    background-color: #0E5D4D;
+	height:300vh;   /* largo de columna de menu */
+	width:10%;
+	padding: 0;
+	margin:0;
+	
+}
+
+.horizontal ul {  /* eliminar puntos de la lista */
+    list-style: none;
+	padding:0;    /* para que lo tome en cuenta */
+	margin:0;
+}
+
+.horizontal ul li {  /* para estilizar la lista */
+    padding: 20px 20px;
+    border-bottom: 1px solid #bdc3c7;   /*lineas divisoras */
+}
+
+.horizontal ul li a {  /* estilo del enlace */
+    text-decoration: none;
+    color: white  ;
+}
+
+.horizontal ul li:hover {   /*mouse */
+    background-color:#424949 ;
+}
+
+nav
+{ 
+   font-family: Arial ;
+   color: #800080;
+   width: 65%;
+   float: left;
+  
+}
+main {
+	text-align:center;
+}
+
+header {
+	margin:0;
+}
+	
+	
+h1 {
+	font-family: Verdana;
+	text-align: center;
+	margin: 0;   /* para que el h1 no se separe del menú ni del contenido */
+	background-color: #0E5D4D ;
+	color: white;
+	padding: 1em;
+	width: 98%; /*longitud background extremo a extremo */
+
+}
+
+
+p {
+	font-family: Arial;
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+	
+}
+
+h2 {
+	font-size: 130%;
+	font-family: Verdana;
+	background-color:#eafaf1 ;
+	color: #0A4D42 ;
+	text-align:center;
+	padding: 1em;  /* grosor-ancho del background */
+	
+}
+
+h3 {
+	font-family: Arial;
+	background-color: #eafaf1;
+	color:black;
+	text-align:center;
+}
+
+	
+
+.habitaciones {  /* divs dentro de servicios */
+	margin-left: 2em;  /* para poder centrarlo con el titulo */
+	padding: 1em;
+	width:80%;   /* ancho */
+	float:left;
+	text-align: center;
+}
+
+.ubicación {
+	
+	margin-left: 11em;
+	padding:1em;
+	width:80%;  
+	float:center;
+}
+
+footer {
+	clear:both;
+	background-color: #0E5D4D;
+	color: white;
+	}
